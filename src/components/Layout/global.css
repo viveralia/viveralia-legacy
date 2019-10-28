@@ -1,0 +1,56 @@
+/***************************/
+/****** CSS VARIABLES ******/
+/***************************/
+:root {
+  --sans: 'Heebo', sans-serif;
+  --mono: 'Cousine', monospace;
+  --actionAlpha: rgba(255, 235, 60, 0.3);
+  --black: #000;
+  --muted: #999;
+  --bold: 500;
+  --container: 1.375rem;
+  --maxWidth: 1200px;
+}
+
+/***************************/
+/********** RESET **********/
+/***************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background: var(--actionAlpha);
+}
+
+body {
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.325;
+  color: var(--black);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--bold);
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+/***************************/
+/****** REM DEFINITION *****/
+/***************************/
+@media (min-width: 992px) {
+  html {
+    font-size: 20px;
+  }
+}
