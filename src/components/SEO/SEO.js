@@ -37,7 +37,7 @@ const SEO = ({ localTitle, localDesc }) => {
       <meta property="og:title" content={`${localTitle} | ${siteTitle}`} />
       <meta property="og:description" content={localDesc || siteDesc} />
       <meta property="og:image" content={`${siteUrl}${image}`} />
-      <meta property="og:image:width" content="400" />
+      <meta property="og:image:width" content="300" />
       <meta property="og:image:height" content="250" />
     </Helmet>
   )
