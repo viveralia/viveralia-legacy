@@ -5,7 +5,7 @@ module.exports = {
     siteUrl: 'https://viveralia.mx',
     description:
       "Hi there, I'm Iván. A JS Fullstack Developer, mainly focused on Frontend, who loves crafting the most usable and enjoyable digital experiences.",
-    image: 'https://i.ibb.co/Q8nT4GL/viveralia.png',
+    image: '/cover.jpg',
   },
   plugins: [
     {
