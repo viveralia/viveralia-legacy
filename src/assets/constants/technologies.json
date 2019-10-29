@@ -1,0 +1,28 @@
+{
+  "technologies": [
+    {
+      "name": "Gatsby JS",
+      "img": "stack-icons/gatsby.svg"
+    },
+    {
+      "name": "MongoDB",
+      "img": "stack-icons/mongo.svg"
+    },
+    {
+      "name": "Express JS",
+      "img": "stack-icons/expressjs.svg"
+    },
+    {
+      "name": "React JS",
+      "img": "stack-icons/react.svg"
+    },
+    {
+      "name": "Node JS",
+      "img": "stack-icons/nodejs.svg"
+    },
+    {
+      "name": "WordPress",
+      "img": "stack-icons/wp.svg"
+    }
+  ]
+}

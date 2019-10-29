@@ -4,14 +4,10 @@ module.exports = {
     author: 'Iván Viveros',
     siteUrl: 'https://viveralia.mx',
     description:
-      "Hi there, I'm Iván. A JS Fullstack Developer, mainly focused on Frontend, who loves crafting the most engaging and delightful digital experiences.",
+      "Hi there, I'm Iván. A JS Fullstack Developer, mainly focused on Frontend, who loves crafting the most usable and enjoyable digital experiences.",
     image: 'https://i.ibb.co/Q8nT4GL/viveralia.png',
   },
   plugins: [
-    `gatsby-plugin-styled-components`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
@@ -47,5 +43,22 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Viveralia`,
+        short_name: `Viveralia`,
+        start_url: `/`,
+        background_color: `#fff`,
+        theme_color: `#fff`,
+        display: `minimal-ui`,
+        icon: `src/assets/images/icon.svg`,
+      },
+    },
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
   ],
 }

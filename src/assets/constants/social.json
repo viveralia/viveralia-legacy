@@ -1,0 +1,12 @@
+{
+  "networks": [
+    {
+      "name": "LinkedIn",
+      "profileUrl": "https://www.linkedin.com/in/viveralia/"
+    },
+    {
+      "name": "Github",
+      "profileUrl": "https://github.com/viveralia"
+    }
+  ]
+}

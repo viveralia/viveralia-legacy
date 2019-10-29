@@ -47,7 +47,7 @@ const Hero = () => {
           </small>
           <h1>
             I’m Iván, a Javascript <span>fullstack</span> developer who loves
-            crafting the most delightful and engaging digital experiences.
+            crafting the most usable and enjoyable digital experiences.
           </h1>
         </div>
       </Container>
